@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Destravando o Affinity — O método passo a passo para artesãs e encadernadoras que querem migrar do Canva para o Affinity e criar encadernações profissionais. Pague uma vez, use para sempre.">
+  <meta name="keywords" content="affinity designer, affinity publisher, encadernação, artesanato, papelaria, migrar do canva, curso affinity">
+  <title>Destravando o Affinity — De Canva a Profissional</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔓</text></svg>">
+</head>
+<body>
+  <!-- Background effects -->
+  <div class="particles-bg"></div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="cursor"></div>
+  <div class="custom-cursor-follower" id="cursor-follower"></div>
+
+  <!-- ========== URGENCY BAR ========== -->
+  <div class="urgency-bar" id="urgency-bar">
+    ⚡ <span>LANÇAMENTO ESPECIAL</span> — Preço de lançamento válido até <strong id="countdown-date">segunda, 18/05</strong> ⚡
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" class="header__logo">Destravando o <span>Affinity</span></a>
+      <a href="#preco" class="btn-cta btn-cta--sm">Quero me inscrever</a>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <!-- Full-bleed background photo — Pamella positioned to the right -->
+    <div class="hero__bg">
+      <img src="images/hero-bg.png" alt="Pamella Vieira — Destravando o Affinity" class="hero__bg-img">
+      <div class="hero__bg-overlay"></div>
+    </div>
+    <!-- Affinity logo floating in hero -->
+    <div class="hero__floating-logo">
+      <img src="images/affinity-logo.png" alt="Affinity Logo">
+    </div>
+    <div class="hero__bg-effects"></div>
+    <div class="container hero__container">
+      <div class="hero__content">
+        <div class="hero__badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          MÉTODO EXCLUSIVO — VAGAS LIMITADAS
+        </div>
+        <div class="hero__highlight">
+          ⚡ O CANVA LANÇOU SUA VERSÃO PROFISSIONAL E SEM LIMITAÇÕES PARA DESIGNERS!
+        </div>
+        <h1 class="hero__title">
+          Saia das limitações do <span class="text-canva">Canva</span>, e crie artes profissionais com o <span class="text-affinity">Affinity Canva</span>
+        </h1>
+        <p class="hero__subtitle">
+          O passo a passo completo para artesãs e papeleiras que querem dominar o Affinity Designer & Publisher — sem limitação, sem dor de cabeça.
+        </p>
+        <div class="hero__cta-wrapper">
+          <a href="#preco" class="btn-cta btn-cta--hero">
+            <span class="btn-cta__text">🚀 GARANTIR MINHA VAGA</span>
+            <span class="btn-cta__glow"></span>
+          </a>
+          <div class="hero__trust">
+            <div class="hero__trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Compra segura
+            </div>
+            <div class="hero__trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              7 dias de garantia
+            </div>
+            <div class="hero__trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              Acesso vitalício
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE ========== -->
+  <div class="marquee">
+    <div class="marquee__inner">
+      <span class="marquee__item">SEM LIMITAÇÕES</span><span class="marquee__dot"></span>
+      <span class="marquee__item">FERRAMENTA DE DESIGN PROFISSIONAL</span><span class="marquee__dot"></span>
+      <span class="marquee__item">QUALIDADE PROFISSIONAL</span><span class="marquee__dot"></span>
+      <span class="marquee__item">DO ZERO AO AVANÇADO</span><span class="marquee__dot"></span>
+      <span class="marquee__item">SEM LIMITAÇÕES</span><span class="marquee__dot"></span>
+      <span class="marquee__item">FERRAMENTA DE DESIGN PROFISSIONAL</span><span class="marquee__dot"></span>
+      <span class="marquee__item">QUALIDADE PROFISSIONAL</span><span class="marquee__dot"></span>
+      <span class="marquee__item">DO ZERO AO AVANÇADO</span><span class="marquee__dot"></span>
+      <span class="marquee__item">SEM LIMITAÇÕES</span><span class="marquee__dot"></span>
+      <span class="marquee__item">FERRAMENTA DE DESIGN PROFISSIONAL</span><span class="marquee__dot"></span>
+      <span class="marquee__item">QUALIDADE PROFISSIONAL</span><span class="marquee__dot"></span>
+      <span class="marquee__item">DO ZERO AO AVANÇADO</span><span class="marquee__dot"></span>
+    </div>
+  </div>
+
+  <!-- ========== PAIN SECTION ========== -->
+  <section class="section section--alt" id="dores">
+    <div class="glow-bg glow-lilac" style="top:-200px;left:-100px;"></div>
+    <div class="container text-center reveal">
+      <div class="section-badge">😤 CHEGA DE SOFRER</div>
+      <h2 class="section-title">Você se identifica com alguma dessas <span class="text-gradient">frustrações?</span></h2>
+      <p class="section-subtitle" style="margin:0 auto;">Se pelo menos uma dessas dores é sua, esse curso foi feito pra você.</p>
+    </div>
+    <div class="container">
+      <div class="pain__grid reveal">
+        <div class="pain__card">
+          <div class="pain__card-icon">💸</div>
+          <h3>Cansou de pagar mensalidades caras?</h3>
+          <p>Chega de pagar assinaturas mensais caras para ter ferramentas de edições profissionais como Adobe e Corel. O Affinity entrega tudo o que você precisa sem te prender a mensalidades.</p>
+        </div>
+        <div class="pain__card">
+          <div class="pain__card-icon">🚫</div>
+          <h3>Limitação que trava o seu trabalho</h3>
+          <p>Sangria? CMYK real? Margens precisas? Páginas mestras? O Canva não te dá isso. E a qualidade do seu produto sofre.</p>
+        </div>
+        <div class="pain__card">
+          <div class="pain__card-icon">😰</div>
+          <h3>Medo de mudar de ferramenta</h3>
+          <p>Você sabe que precisa evoluir, mas a interface parece complicada. Medo de perder tempo e não conseguir aprender sozinha.</p>
+        </div>
+        <div class="pain__card">
+          <div class="pain__card-icon">📉</div>
+          <h3>Seus produtos parecem amadores</h3>
+          <p>Sem controle de cor CMYK, sem sangria correta, sem margens profissionais. A impressão sai diferente e o cliente reclama.</p>
+        </div>
+        <div class="pain__card">
+          <div class="pain__card-icon">🔁</div>
+          <h3>Retrabalho infinito</h3>
+          <p>Faz no Canva, exporta, vê que ficou errado, volta, ajusta... Um ciclo que come suas horas e sua paciência.</p>
+        </div>
+        <div class="pain__card">
+          <div class="pain__card-icon">🌐</div>
+          <h3>Depende de internet pra trabalhar</h3>
+          <p>O Canva precisa de conexão. Uma queda de internet e você fica sem acesso aos seus próprios projetos. O Affinity funciona 100% offline.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BENEFITS ========== -->
+  <section class="section" id="beneficios">
+    <div class="glow-bg glow-green" style="top:100px;right:-200px;"></div>
+    <div class="container text-center reveal">
+      <div class="section-badge">✨ A SOLUÇÃO</div>
+      <h2 class="section-title">O que muda quando você <span class="text-gradient">domina o Affinity</span></h2>
+      <p class="section-subtitle" style="margin:0 auto;">A ferramenta profissional que trabalha para você, não contra você.</p>
+    </div>
+
+    <!-- Interface Showcase -->
+    <div class="container reveal" style="margin-top: 40px; margin-bottom: 40px;">
+      <div class="interface-showcase" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 20px 50px rgba(0,0,0,0.6);">
+        <img src="images/affinity-interface.png" alt="Interface Profissional do Affinity" style="width: 100%; display: block;">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="benefits__grid reveal">
+        <div class="benefit-card">
+          <div class="benefit-card__icon">💎</div>
+          <h3>Qualidade de gráfica</h3>
+          <p>Controle total de CMYK, sangria e DPI. Seus produtos saem perfeitos na impressão, sem surpresas.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">🤝</div>
+          <h3>Disponível no Canva</h3>
+          <p>O Affinity agora faz parte do ecossistema Canva. Acesse o poder de uma ferramenta profissional diretamente pelos aplicativos da plataforma.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">📐</div>
+          <h3>Precisão milimétrica</h3>
+          <p>Páginas mestras, grids, guias magnéticos e réguas que fazem seus projetos ficarem impecáveis.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">🚀</div>
+          <h3>Produtividade 10x</h3>
+          <p>Automatize tarefas repetitivas, crie templates reutilizáveis e produza mais em menos tempo.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">📴</div>
+          <h3>100% offline</h3>
+          <p>Trabalhe de qualquer lugar, a qualquer hora. Sem depender de internet ou nuvem.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">🎨</div>
+          <h3>Liberdade criativa total</h3>
+          <p>Vetores, raster, tipografia avançada, efeitos profissionais. Tudo que o Canva não te dá, o Affinity oferece.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODULES ========== -->
+  <section class="section section--alt" id="modulos">
+    <div class="container text-center reveal">
+      <div class="section-badge">📚 CONTEÚDO COMPLETO</div>
+      <h2 class="section-title">Tudo que você vai aprender, <span class="text-gradient">do zero ao profissional</span></h2>
+      <p class="section-subtitle" style="margin:0 auto;">Mais de 40 aulas práticas organizadas em módulos progressivos.</p>
+    </div>
+    <div class="container">
+      <div class="modules__grid reveal">
+        <div class="module-card">
+          <div class="module-card__number">0</div>
+          <h3>Primeiros Passos</h3>
+          <p>Instalação, configuração e tour pela interface. Sem medo da tela inicial.</p>
+          <div class="module-card__lessons">📹 5 aulas</div>
+        </div>
+        <div class="module-card">
+          <div class="module-card__number">1</div>
+          <h3>Ferramentas Essenciais</h3>
+          <p>Texto, formas, camadas, cores, alinhamento. A base sólida que você precisa.</p>
+          <div class="module-card__lessons">📹 8 aulas</div>
+        </div>
+        <div class="module-card">
+          <div class="module-card__number">2</div>
+          <h3>Do Canva ao Affinity</h3>
+          <p>Tradução prática: como fazer no Affinity tudo que você já fazia no Canva.</p>
+          <div class="module-card__lessons">📹 6 aulas</div>
+        </div>
+        <div class="module-card">
+          <div class="module-card__number">3</div>
+          <h3>Encadernação na Prática</h3>
+          <p>Capas, miolos, lombadas, cadernetas e agendas com medidas profissionais.</p>
+          <div class="module-card__lessons">📹 8 aulas</div>
+        </div>
+        <div class="module-card">
+          <div class="module-card__number">4</div>
+          <h3>Impressão Perfeita</h3>
+          <p>CMYK, sangria, DPI, exportação para gráfica. Nunca mais tenha surpresa na impressão.</p>
+          <div class="module-card__lessons">📹 5 aulas</div>
+        </div>
+        <div class="module-card">
+          <div class="module-card__number">5</div>
+          <h3>Produtividade & Automação</h3>
+          <p>Templates, páginas mestras, estilos salvos e atalhos que economizam horas.</p>
+          <div class="module-card__lessons">📹 5 aulas</div>
+        </div>
+        <div class="module-card">
+          <div class="module-card__number">6</div>
+          <h3>Projetos Completos</h3>
+          <p>Crie uma agenda, um caderno e um planner do zero — do design à impressão.</p>
+          <div class="module-card__lessons">📹 6 aulas</div>
+        </div>
+        <div class="module-card">
+          <div class="module-card__number">🎁</div>
+          <h3>Bônus Exclusivos</h3>
+          <p>Templates prontos, paleta de cores para papelaria e checklist de exportação.</p>
+          <div class="module-card__lessons">✨ Bônus especiais</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT / QUEM SOU ========== -->
+  <section class="section about" id="sobre">
+    <div class="glow-bg glow-lilac" style="bottom:-100px;left:-150px;"></div>
+    <div class="container">
+      <div class="about__grid reveal">
+        <div class="about__image">
+          <img src="images/pamella-about.jpg" alt="Pamella Vieira — Criadora do Destravando o Affinity">
+        </div>
+        <div class="about__text">
+          <div class="section-badge">👋 QUEM TE ENSINA</div>
+          <h2 class="section-title">Oi, eu sou a <span class="text-gradient">Pamella Vieira</span></h2>
+          <p class="section-subtitle">
+            Designer, encadernadora e apaixonada por papelaria. Já ajudei mais de <strong>2.000 artesãs</strong> a evoluírem seus negócios com tecnologia e design profissional.
+          </p>
+          <p class="section-subtitle" style="margin-top:12px;">
+            Eu também vim do Canva. Sei exatamente o que é sentir que a ferramenta te limita. Quando migrei pro Affinity, tudo mudou: a qualidade dos meus produtos, a confiança dos meus clientes e o faturamento do meu negócio.
+          </p>
+          <p class="section-subtitle" style="margin-top:12px;">
+            Criei esse curso pra te dar o caminho que eu gostaria de ter tido — sem complicação, sem jargão técnico, direto ao ponto.
+          </p>
+          <div class="about__stats">
+            <div class="about__stat">
+              <div class="about__stat-number">2K+</div>
+              <div class="about__stat-label">Alunas</div>
+            </div>
+            <div class="about__stat">
+              <div class="about__stat-number">143K+</div>
+              <div class="about__stat-label">Seguidores</div>
+            </div>
+            <div class="about__stat">
+              <div class="about__stat-number">10+</div>
+              <div class="about__stat-label">Anos de exp.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="section section--alt" id="preco">
+    <div class="glow-bg glow-green" style="top:50%;left:50%;transform:translate(-50%,-50%);"></div>
+    <div class="container text-center reveal">
+      <div class="section-badge">🔥 OFERTA DE LANÇAMENTO</div>
+      <h2 class="section-title">Invista no seu <span class="text-gradient">próximo nível</span></h2>
+      <p class="section-subtitle" style="margin:0 auto;">Preço especial de lançamento por tempo limitado.</p>
+
+      <div class="pricing-card">
+        <div class="pricing-card__ribbon">🚀 LANÇAMENTO — PREÇO ESPECIAL</div>
+
+        <ul class="pricing-checklist">
+          <li>Acesso vitalício a todos os módulos</li>
+          <li>+40 aulas práticas do zero ao avançado</li>
+          <li>Módulo exclusivo: Do Canva ao Affinity</li>
+          <li>Projetos completos de encadernação</li>
+          <li>Templates prontos para baixar</li>
+          <li>Checklist profissional de exportação</li>
+          <li>Paleta de cores para papelaria</li>
+          <li>Comunidade exclusiva de alunas</li>
+          <li>Certificado de conclusão</li>
+          <li>Atualizações gratuitas</li>
+        </ul>
+
+        <div class="pricing-card__price">
+          <div class="price-label" style="text-decoration:line-through;color:#f87171;margin-bottom:4px;">De R$ 397,00</div>
+          <div class="price-installments">12x de</div>
+          <div class="price-value"><sup>R$</sup>25<sup>,55</sup></div>
+          <div class="pricing-card__fullprice">ou <strong>R$ 247,00</strong> à vista</div>
+        </div>
+
+        <a href="https://pay.hotmart.com/F105848240P?checkoutMode=10" class="btn-cta btn-cta--lg" id="cta-pricing" style="width:100%;" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          QUERO ME INSCREVER AGORA
+        </a>
+        <p style="margin-top:16px;font-size:0.78rem;color:var(--text-muted);">Pagamento 100% seguro via Hotmart · Acesso imediato</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GUARANTEE ========== -->
+  <section class="section" id="garantia">
+    <div class="container reveal">
+      <div class="guarantee-box">
+        <div class="guarantee__icon">
+          <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="var(--green-400)" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10" stroke-width="2"/></svg>
+        </div>
+        <div>
+          <h3>Garantia incondicional de <span class="text-gradient">7 dias</span></h3>
+          <p>Se dentro de 7 dias você sentir que o curso não é pra você, basta pedir reembolso. Sem perguntas, sem burocracia. O risco é ZERO — todo ele é meu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="section section--alt" id="faq">
+    <div class="container text-center reveal">
+      <div class="section-badge">❓ PERGUNTAS FREQUENTES</div>
+      <h2 class="section-title">Tire suas <span class="text-gradient">dúvidas</span></h2>
+    </div>
+    <div class="container">
+      <div class="faq__list reveal">
+        <div class="faq-item">
+          <div class="faq-item__question">Preciso saber usar o Affinity antes? <span class="faq-item__icon">+</span></div>
+          <div class="faq-item__answer">Não! O curso começa do absoluto zero. Ensino desde a instalação até projetos completos. Se você sabe ligar o computador, consegue acompanhar.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">Funciona no meu computador? <span class="faq-item__icon">+</span></div>
+          <div class="faq-item__answer">O Affinity roda em Windows, Mac e iPad. Se seu computador é razoavelmente atual (a partir de 2018), você consegue rodar tranquilamente.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">Preciso comprar o Affinity separadamente? <span class="faq-item__icon">+</span></div>
+          <div class="faq-item__answer">A ótima notícia é que o Affinity agora está disponível para baixar diretamente nos aplicativos do Canva! Ensino o passo a passo de como fazer isso logo na primeira aula.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">O curso serve para outros tipos de artesanato? <span class="faq-item__icon">+</span></div>
+          <div class="faq-item__answer">Com certeza! O foco é encadernação, mas as técnicas servem para qualquer papeleira: convites, tags, embalagens, cartões e muito mais.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">Por quanto tempo terei acesso? <span class="faq-item__icon">+</span></div>
+          <div class="faq-item__answer">Acesso vitalício! Você compra uma vez e tem acesso pra sempre, incluindo todas as atualizações futuras que eu fizer no curso.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">Como funciona a garantia? <span class="faq-item__icon">+</span></div>
+          <div class="faq-item__answer">Você tem 7 dias corridos para testar. Se não gostar por qualquer motivo, pede o reembolso direto pela Hotmart e recebe 100% do seu dinheiro de volta.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FINAL CTA ========== -->
+  <section class="section final-cta" id="cta-final">
+    <div class="glow-bg glow-green" style="top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.15;"></div>
+    <div class="container reveal">
+      <div class="section-badge">🚀 SUA VEZ CHEGOU</div>
+      <h2 class="final-cta__title">Chega de se limitar. <span class="text-gradient">Destrave o Affinity</span> e transforme seus produtos.</h2>
+      <p class="final-cta__subtitle">Vagas limitadas. Aproveite o preço de lançamento antes que acabe.</p>
+      <a href="#preco" class="btn-cta btn-cta--lg">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        GARANTIR MINHA VAGA AGORA
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Pamella Vieira · Destravando o Affinity · Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ========== ORDER BUMP MODAL ========== -->
+  <div class="ob-modal-overlay" id="obModal">
+    <div class="ob-modal-content">
+      <button class="ob-modal-close" id="obModalClose">&times;</button>
+      <div class="ob-modal-header">
+        <span class="ob-modal-icon">🎁</span>
+        <h3>BRINDE EXCLUSIVO PARA AS PRIMEIRAS 50 HOJE!</h3>
+      </div>
+      <div class="ob-modal-body">
+        <p style="margin-bottom: 15px; font-size: 1.05rem;">Comprando os dois cursos juntos na próxima página <strong>(Affinity + Fábrica de Devocionais)</strong>, você já ganha!!</p>
+        <div class="ob-modal-items" style="background: rgba(234, 179, 8, 0.1); border-color: rgba(234, 179, 8, 0.3);">
+          <div class="ob-item" style="color: #fbbf24; font-size: 1.05rem;">✨ Pack "Ouro Cristão": 25 Capas Premium Exclusivas</div>
+          <p style="color: #f3f4f6; font-size: 0.9rem; margin-top: 8px; font-weight: normal; line-height: 1.5; text-align: left;">
+            Um kit com artes de capas (Evangélicas e Católicas) de altíssimo nível, que <strong>não serão vendidas separadamente</strong> e que apenas essas 50 primeiras alunas terão.
+          </p>
+        </div>
+        <p style="color: var(--green-400); font-weight: 700; margin-bottom: 10px;">O kit de Capas editáveis da linha cristã é BRINDE nesse lançamento!!!</p>
+        <p style="font-size: 0.9rem; background: rgba(147, 51, 234, 0.15); border: 1px dashed rgba(147, 51, 234, 0.4); padding: 12px; border-radius: 8px; margin-bottom: 15px;">
+          💡 <strong>Aproveite o menor preço:</strong> Juntando o Destravando o Affinity com a Fábrica, a sua mensalidade de tudo ficará em <strong>torno de apenas R$ 50 por mês!</strong>
+        </p>
+        <p class="ob-modal-warning">Não esqueça de marcar a opção adicional antes de finalizar o pagamento para liberar o prêmio.</p>
+      </div>
+      <div class="ob-modal-footer">
+        <a href="https://pay.hotmart.com/F105848240P?checkoutMode=10" class="btn-cta btn-cta--sm" id="obModalContinue">Entendi, ir para o checkout</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
